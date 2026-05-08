@@ -40,7 +40,7 @@ LGBS_MAP_URL = (
 )
 NATIONWIDE_BBOX = "-137.239360125,17.356559635816986,-56.204203875,56.44163313230667"
 RETRY_ATTEMPTS  = 3
-RETRY_DELAY     = 4
+RETRY_DELAY     = 8
 
 ESTATE_KEYWORDS = [
     "ESTATE","EST OF","EST.","HEIRS","HEIR OF","DECEASED","DECEDENT",
@@ -91,6 +91,19 @@ def owner_label(owner):
 
 def make_session():
     s = requests.Session()
+    # Retry adapter with backoff
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+    adapter = HTTPAdapter(
+        max_retries=Retry(
+            total=3,
+            backoff_factor=2,
+            status_forcelist=[429, 500, 502, 503, 504],
+        ),
+        pool_connections=1,
+        pool_maxsize=1,
+    )
+    s.mount('https://', adapter)
     s.headers.update({
         "User-Agent":      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                            "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -149,7 +162,7 @@ def fetch_counties(sale_date):
     session = make_session()
     for params in [{"sale_date_only": sale_date, "limit":500}, {"limit":500}]:
         try:
-            r = retry(session.get, LGBS_API_COUNTIES, params=params, timeout=30)
+            r = retry(session.get, LGBS_API_COUNTIES, params=params, timeout=60)
             r.raise_for_status()
             d = r.json()
             items = d if isinstance(d,list) else (d.get("results") or d.get("data") or [])
@@ -183,7 +196,7 @@ def fetch_sales(sale_date, county="", state=""):
             offset = 0
             while True:
                 params["offset"] = offset
-                r = retry(session.get, LGBS_API_SALES, params=params, timeout=30)
+                r = retry(session.get, LGBS_API_SALES, params=params, timeout=60)
                 r.raise_for_status()
                 d = r.json()
                 items = d if isinstance(d,list) else \
@@ -337,6 +350,7 @@ async def scrape_all(date_from, date_to):
                 batch = fetch_sales(sale_date, county=co_name, state=co_state)
                 log.info("  %s County, %s → %d records", co_name, co_state, len(batch))
                 all_records.extend(batch)
+                time.sleep(2)  # polite delay between county requests
         else:
             batch = fetch_sales(sale_date, county=COUNTY_FILTER, state=STATE_FILTER)
             log.info("  Nationwide/filtered → %d records", len(batch))
