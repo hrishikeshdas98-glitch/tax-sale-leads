@@ -1,0 +1,2 @@
+# This file ensures the data/ folder is tracked by git.
+# The scraper will write records.json and leads_export.csv here.
