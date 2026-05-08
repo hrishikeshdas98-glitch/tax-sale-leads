@@ -34,7 +34,7 @@ jobs:
   # ------------------------------------------------------------------ #
   scrape:
     runs-on: ubuntu-22.04
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -62,11 +62,13 @@ jobs:
 
       - name: Run scraper
         env:
-          STATE_FILTER:    ${{ github.event.inputs.state_filter  || '' }}
-          COUNTY_FILTER:   ${{ github.event.inputs.county_filter || '' }}
-          DAYS_BACK:       ${{ github.event.inputs.days_back     || '7' }}
-          SALE_DATE_ONLY:  ${{ github.event.inputs.sale_date_only || '' }}
+          STATE_FILTER:     ${{ github.event.inputs.state_filter   || '' }}
+          COUNTY_FILTER:    ${{ github.event.inputs.county_filter  || '' }}
+          DAYS_BACK:        ${{ github.event.inputs.days_back      || '7' }}
+          SALE_DATE_ONLY:   ${{ github.event.inputs.sale_date_only || '' }}
           PYTHONUNBUFFERED: "1"
+          # Increase urllib3 connection pool timeouts
+          PYTHONHTTPSVERIFY: "1"
         run: python scraper/fetch.py
 
       - name: Commit results
