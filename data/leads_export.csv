@@ -1,1 +1,513 @@
-First Name,Last Name,Mailing Address,Mailing City,Mailing State,Mailing Zip,Property Address,Property City,Property State,Property Zip,County,Precinct,Account ID,Sale Type,Sale Date,Amount Owed,Seller Score,Motivated Seller Flags,Legal Description,Source,Public Records URL
+First Name,Last Name,Owner Type,Is Estate,Mailing Address,Mailing City,Mailing State,Mailing Zip,Property Address,Property City,Property State,Property Zip,County,State,Precinct,Account ID,Sale Type,Sale Date,Amount Owed,Seller Score,Motivated Seller Flags,Legal Description,Source,Public Records URL
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011912785
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003645545
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002164694
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004974738
+,,👤 Individual,NO,,,,,,,TX,,HUNT COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005808555
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001552443
+,,👤 Individual,NO,,,,,,,TX,,HUNT COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005538584
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011156469
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001552625
+,,👤 Individual,NO,,,,,,,TX,,HUNT COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005538596
+,,👤 Individual,NO,,,,,,,TX,,ANDERSON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003098900
+,,👤 Individual,NO,,,,,,,TX,,ANDERSON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003065295
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004381582
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003879986
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012462675
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004024781
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003883529
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004713656
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004552131
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004400894
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004058280
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004553162
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004374240
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004366188
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004387766
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003891034
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004185743
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004627294
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003878843
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004084446
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1017314546
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004188237
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004525822
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004120939
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004056818
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004184444
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004380298
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004453213
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000113534
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000098820
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000055118
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000094327
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000068270
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000087273
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000087276
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000080228
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000080231
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000140451
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015512192
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511748
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015512300
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511087
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002610324
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002806720
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002691831
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002793687
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002570136
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002576772
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002576895
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002584650
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015835226
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005801847
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002560027
+,,👤 Individual,NO,,,,,,,TX,,MAVERICK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002722746
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005385654
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005377888
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005824227
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005458475
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014822136
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005460510
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005788288
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005855030
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005874802
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005509059
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005871406
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005788188
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005394675
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015948601
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005578787
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008777864
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009151648
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012743421
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009495787
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009036340
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010179537
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009645850
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010210111
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008989840
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009606844
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008952081
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013181909
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009207491
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009854580
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009310879
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009215341
+,,👤 Individual,NO,,,,,,,TX,,GALVESTON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013182859
+,,👤 Individual,NO,,,,,,,TX,,LIBERTY COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010060368
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016321846
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016320598
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016320881
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016321383
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012195180
+,,👤 Individual,NO,,,,,,,TX,,KERR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016322648
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002016750
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002016763
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002018887
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001691944
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002097940
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001682422
+,,👤 Individual,NO,,,,,,,TX,,LEE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001988161
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003919391
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014066093
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014157574
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001355118
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007398803
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001164264
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000698499
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012950922
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013179667
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001325847
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007191359
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003302231
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007191920
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007128305
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006238008
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005730460
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001260849
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005559497
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001855349
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001291469
+,,👤 Individual,NO,,,,,,,TX,,TARRANT COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008742789
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010794671
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011119374
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011438170
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009274242
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011027097
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011020659
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013929772
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011307119
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011563923
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010612656
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009990705
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010357690
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011144668
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009340674
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011410188
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010057676
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011264763
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010301119
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013699094
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011168589
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010222095
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011002168
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010789157
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010329923
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010523604
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010528336
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010379933
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010378364
+,,👤 Individual,NO,,,,,,,TX,,DALLAS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011157786
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003480411
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003329810
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003042071
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003064632
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004390183
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002999366
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001727115
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004340609
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006623164
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001590591
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002573962
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000659195
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001264736
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003262705
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005107204
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006484250
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008002792
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009857223
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010307330
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008960055
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008452303
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009960826
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009950244
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006345843
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005825009
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009835521
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010332530
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009807582
+,,👤 Individual,NO,,,,,,,TX,,GREGG COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005665025
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007429196
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007040508
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013269793
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006605801
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007005257
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006665028
+,,👤 Individual,NO,,,,,,,TX,,ELLIS COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006676879
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007780027
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006507512
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007861938
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005664400
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1017130071
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014770569
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008246692
+,,👤 Individual,NO,,,,,,,TX,,FORT BEND COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015314367
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,4,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011930310
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001302644
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011555836
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,4,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011907660
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009918989
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010772696
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010610733
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010671139
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010793785
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011938247
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009597036
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011876567
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011860117
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011860118
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010372871
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010024371
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,7,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010632294
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004157923
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011597063
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010500051
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011238723
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,6,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1011962567
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,5,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006143940
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,8,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009487999
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,8,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012093020
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,8,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012093019
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,6,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002349779
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,6,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007331470
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002713969
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,3,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010566104
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,6,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010606995
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005963742
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005963767
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000487005
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000566335
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000619922
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000491227
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000560857
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000561221
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000511418
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000641304
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000591944
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013526562
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000492870
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000492874
+,,👤 Individual,NO,,,,,,,TX,,LIVE OAK COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000492906
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002056360
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002121583
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001932537
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002142433
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001932595
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001454217
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001932310
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001929491
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001913687
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015361879
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001550566
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001954621
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002296052
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012398634
+,,👤 Individual,NO,,,,,,,TX,,MCLENNAN COUNTY,TX,1,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001309083
+,,👤 Individual,NO,,,,,,,TX,,SMITH COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009566743
+,,👤 Individual,NO,,,,,,,TX,,SMITH COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009309149
+,,👤 Individual,NO,,,,,,,TX,,SMITH COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008211769
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005162635
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004401538
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003970318
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004442474
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004385652
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004526978
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004380231
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004454008
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003913342
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003845030
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004188335
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004188349
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004054598
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004203703
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004447804
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004452226
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003819540
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004021842
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004445869
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004521294
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003991652
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004376893
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004292815
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003992249
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004422620
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004422922
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004423256
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004081941
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004434181
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003844677
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004537187
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004322149
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004322749
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004428232
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004428273
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004537791
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004037993
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004375628
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003951317
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004379023
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004290962
+,,👤 Individual,NO,,,,,,,TX,,JASPER COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003906289
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008001188
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009210491
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006843616
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008174911
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005670732
+,,👤 Individual,NO,,,,,,,TX,,CAMERON COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005804751
+,,👤 Individual,NO,,,,,,,TX,,SABINE COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1013124425
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008177121
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007738835
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012482142
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009699521
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008394525
+,,👤 Individual,NO,,,,,,,TX,,NUECES COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009142746
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004830173
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005048129
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005023768
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012809299
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014640128
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004942446
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004830160
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004770086
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005233166
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005316653
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005327098
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005310300
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005309139
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005124910
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005124921
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005279410
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005262751
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005325290
+,,👤 Individual,NO,,,,,,,TX,,NAVARRO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005197040
+,,👤 Individual,NO,,,,,,,TX,,KAUFMAN COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010050946
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004151200
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004194955
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004248092
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004259909
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004168584
+,,👤 Individual,NO,,,,,,,TX,,ZAVALA COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004170729
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001660603
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002031624
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002031639
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001625602
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001625646
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001709899
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002269291
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001819507
+,,👤 Individual,NO,,,,,,,TX,,LLANO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001849698
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000055281
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000075267
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000075270
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000053946
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016284296
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000048794
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000045062
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000064705
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000067760
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002645426
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015312453
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004758598
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001120045
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004716470
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001670294
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001252608
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004960363
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002055464
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004118424
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001007793
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000608107
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1016751915
+,,👤 Individual,NO,,,,,,,TX,,EL PASO COUNTY,TX,,,SALE,2026-06-02,,50,Active Tax Sale,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003059447
+,,👤 Individual,NO,,,,,,,TX,,,TX,,,CLUSTER,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/0
+,,👤 Individual,NO,,,,,,,TX,,,TX,,,CLUSTER,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014587309
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1014586870
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511164
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015948726
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511083
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511093
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511115
+,,👤 Individual,NO,,,,,,,TX,,HARDIN COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1015511230
+,,👤 Individual,NO,,,,,,,TX,,VAN ZANDT COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005570157
+,,👤 Individual,NO,,,,,,,TX,,LIBERTY COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010093783
+,,👤 Individual,NO,,,,,,,TX,,LIBERTY COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010091028
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001575563
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003519922
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003202542
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000796876
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002117846
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003498127
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003123958
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003123979
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003148955
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003110763
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004426660
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001502179
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003052171
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003745639
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001451443
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000490621
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003024933
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003025295
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003026440
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001283431
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001739410
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002987265
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001282284
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1002971492
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006808342
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000710607
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001394615
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003867272
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1006586897
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003792028
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001255608
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003238326
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001351280
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001572906
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001348662
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001259707
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003789701
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004569198
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001255550
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001386885
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001384468
+,,👤 Individual,NO,,,,,,,TX,,BEXAR COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1001388209
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009316887
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008919259
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008306693
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009051706
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007913967
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009311397
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008305941
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007606827
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007606841
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008670488
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008663818
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009563965
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008298856
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008377220
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008294942
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007942810
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008290982
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008571287
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008548321
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008551038
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009471548
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007408903
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008542115
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1008543719
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009392130
+,,👤 Individual,NO,,,,,,,TX,,JEFFERSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1009391055
+,,👤 Individual,NO,,,,,,,TX,,MARION COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000631738
+,,👤 Individual,NO,,,,,,,TX,,MARION COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000625311
+,,👤 Individual,NO,,,,,,,TX,,MARION COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000658449
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004636588
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004780853
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004727089
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005107541
+,,👤 Individual,NO,,,,,,,TX,,PANOLA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004636502
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,3,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010464774
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,3,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1007299877
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1010512492
+,,👤 Individual,NO,,,,,,,TX,,HARRIS COUNTY,TX,2,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1012819580
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005325578
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004772413
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004857971
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005187299
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004927939
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004928722
+,,👤 Individual,NO,,,,,,,TX,,TYLER COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004844890
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004507484
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004630404
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004427099
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004285749
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004525380
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004187478
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004178436
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004180816
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004058296
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004066179
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004393983
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004135743
+,,👤 Individual,NO,,,,,,,TX,,ANGELINA COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1003903289
+,,👤 Individual,NO,,,,,,,TX,,SABINE COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004329530
+,,👤 Individual,NO,,,,,,,TX,,SABINE COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004287338
+,,👤 Individual,NO,,,,,,,TX,,SABINE COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004178447
+,,👤 Individual,NO,,,,,,,TX,,SABINE COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004178461
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004901710
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005231408
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005242467
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005251645
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004717654
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1005200184
+,,👤 Individual,NO,,,,,,,TX,,WILSON COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1004980525
+,,👤 Individual,NO,,,,,,,TX,,HOPKINS COUNTY,TX,2,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000051981
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000141160
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000060357
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000058982
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000059371
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000084642
+,,👤 Individual,NO,,,,,,,TX,,ARANSAS COUNTY,TX,,,RESALE,2026-06-02,,30,,,Linebarger Tax Sales,https://taxsales.lgbs.com/property/1000098373
