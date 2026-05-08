@@ -1,0 +1,112 @@
+name: Linebarger Tax Sales Scraper
+
+on:
+  schedule:
+    # Every day at 8:00 AM UTC (3:00 AM Dallas / Central time)
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      state_filter:
+        description: "State abbreviation to filter (e.g. TX). Leave blank for ALL states."
+        required: false
+        default: ""
+      county_filter:
+        description: "County name to filter (e.g. HARRIS). Leave blank for ALL counties."
+        required: false
+        default: ""
+      days_back:
+        description: "How many days back to scrape (default 7)"
+        required: false
+        default: "7"
+      sale_date_only:
+        description: "Scrape a specific date only (YYYY-MM-DD). Overrides days_back."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  # ------------------------------------------------------------------ #
+  # JOB 1 – Scrape
+  # ------------------------------------------------------------------ #
+  scrape:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+
+      - name: Install Playwright + Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Ensure output directories exist
+        run: mkdir -p dashboard data
+
+      - name: Run scraper
+        env:
+          STATE_FILTER:    ${{ github.event.inputs.state_filter  || '' }}
+          COUNTY_FILTER:   ${{ github.event.inputs.county_filter || '' }}
+          DAYS_BACK:       ${{ github.event.inputs.days_back     || '7' }}
+          SALE_DATE_ONLY:  ${{ github.event.inputs.sale_date_only || '' }}
+          PYTHONUNBUFFERED: "1"
+        run: python scraper/fetch.py
+
+      - name: Commit results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name  "GitHub Action"
+          git add dashboard/records.json data/records.json data/leads_export.csv || true
+          git diff --staged --quiet || \
+            git commit -m "chore: tax sale leads $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ------------------------------------------------------------------ #
+  # JOB 2 – Deploy dashboard to GitHub Pages
+  # ------------------------------------------------------------------ #
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/main'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
