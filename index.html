@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Tax Sale Leads – Linebarger</title>
+  <style>
+    :root{
+      --bg:#0f1117;--surface:#1a1d27;--border:#2a2d3a;
+      --text:#e2e8f0;--muted:#94a3b8;--accent:#6366f1;
+      --green:#22c55e;--yellow:#eab308;--red:#ef4444;--orange:#f97316;--blue:#3b82f6;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;font-size:14px}
+
+    /* ── Header ── */
+    header{background:var(--surface);border-bottom:1px solid var(--border);
+           padding:14px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+    header h1{font-size:17px;font-weight:700}
+    #meta{font-size:11px;color:var(--muted)}
+
+    /* ── Stats bar ── */
+    .stats{display:flex;gap:12px;padding:16px 24px;flex-wrap:wrap}
+    .stat{background:var(--surface);border:1px solid var(--border);border-radius:8px;
+          padding:12px 18px;min-width:130px}
+    .stat .num{font-size:26px;font-weight:700}
+    .stat .lbl{font-size:11px;color:var(--muted);margin-top:3px}
+
+    /* ── Controls ── */
+    .controls{display:flex;gap:8px;padding:0 24px 14px;flex-wrap:wrap;align-items:center}
+    .controls input,.controls select{
+      background:var(--surface);border:1px solid var(--border);border-radius:6px;
+      color:var(--text);padding:6px 11px;font-size:13px;min-width:140px}
+    .controls input:focus,.controls select:focus{outline:1px solid var(--accent)}
+    .btn{border:none;border-radius:6px;padding:6px 14px;cursor:pointer;font-size:13px;font-weight:600}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-primary:hover{opacity:.85}
+    .btn-secondary{background:var(--surface);border:1px solid var(--border);color:var(--text)}
+    .ml-auto{margin-left:auto}
+
+    /* ── Map toggle ── */
+    #map-section{padding:0 24px 16px;display:none}
+    #map{height:400px;border-radius:8px;border:1px solid var(--border)}
+
+    /* ── Table ── */
+    .table-wrap{overflow-x:auto;padding:0 24px 40px}
+    table{width:100%;border-collapse:collapse;min-width:960px}
+    th{background:var(--surface);border-bottom:2px solid var(--border);
+       padding:9px 11px;text-align:left;font-size:11px;color:var(--muted);
+       text-transform:uppercase;letter-spacing:.05em;position:sticky;top:0;z-index:1}
+    td{border-bottom:1px solid var(--border);padding:8px 11px;vertical-align:top}
+    tr:hover td{background:rgba(255,255,255,.025)}
+
+    /* ── Score pill ── */
+    .pill{display:inline-block;padding:2px 8px;border-radius:12px;font-weight:700;font-size:12px}
+    .pill-high  {background:rgba(34,197,94,.15); color:var(--green)}
+    .pill-mid   {background:rgba(234,179,8,.15); color:var(--yellow)}
+    .pill-low   {background:rgba(239,68,68,.15); color:var(--red)}
+
+    /* ── Sale type badge ── */
+    .badge{display:inline-block;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:600}
+    .badge-sale    {background:rgba(239,68,68,.18);   color:#fca5a5}
+    .badge-struck  {background:rgba(249,115,22,.18);  color:#fdba74}
+    .badge-future  {background:rgba(59,130,246,.18);  color:#93c5fd}
+
+    /* ── Flags ── */
+    .flag{display:inline-block;padding:1px 6px;border-radius:10px;font-size:11px;
+          margin:1px;background:rgba(99,102,241,.18);color:#a5b4fc}
+
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .no-data{text-align:center;padding:60px;color:var(--muted)}
+
+    /* ── Pagination ── */
+    #pagination{display:flex;gap:6px;justify-content:center;padding:14px;flex-wrap:wrap}
+    #pagination button{background:var(--surface);border:1px solid var(--border);
+      border-radius:6px;color:var(--text);padding:4px 11px;cursor:pointer;font-size:13px}
+    #pagination button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+    /* ── Detail drawer ── */
+    #drawer{position:fixed;top:0;right:-420px;width:420px;height:100vh;
+            background:var(--surface);border-left:1px solid var(--border);
+            overflow-y:auto;transition:right .25s;z-index:100;padding:20px}
+    #drawer.open{right:0}
+    #drawer h2{font-size:16px;margin-bottom:16px}
+    #drawer .close{float:right;cursor:pointer;color:var(--muted);font-size:20px;line-height:1}
+    .field{margin-bottom:12px}
+    .field label{font-size:11px;color:var(--muted);display:block;margin-bottom:3px;text-transform:uppercase}
+    .field span{font-size:14px}
+  </style>
+  <!-- Leaflet for mini-map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🏛 Linebarger Tax Sale Leads</h1>
+  <span id="meta">Loading…</span>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="num" id="s-total">—</div><div class="lbl">Total Leads</div></div>
+  <div class="stat"><div class="num" id="s-addr">—</div><div class="lbl">With Address</div></div>
+  <div class="stat"><div class="num" id="s-high">—</div><div class="lbl">Score ≥ 60</div></div>
+  <div class="stat"><div class="num" id="s-active">—</div><div class="lbl">Active Sales</div></div>
+  <div class="stat"><div class="num" id="s-struck">—</div><div class="lbl">Struck Off</div></div>
+  <div class="stat"><div class="num" id="s-future">—</div><div class="lbl">Future Sales</div></div>
+</div>
+
+<div class="controls">
+  <input  type="text"   id="search"       placeholder="Search owner, address, county…"/>
+  <select id="f-type">
+    <option value="">All Sale Types</option>
+    <option value="SALE">Active Sale</option>
+    <option value="STRUCK OFF">Struck Off</option>
+    <option value="FUTURE SALE">Future Sale</option>
+  </select>
+  <select id="f-score">
+    <option value="0">Any Score</option>
+    <option value="50">≥ 50</option>
+    <option value="60">≥ 60</option>
+    <option value="70">≥ 70</option>
+    <option value="80">≥ 80</option>
+  </select>
+  <select id="f-county"><option value="">All Counties</option></select>
+  <select id="sort">
+    <option value="score">Sort: Score ↓</option>
+    <option value="date">Sort: Date ↓</option>
+    <option value="amount">Sort: Amount ↓</option>
+    <option value="county">Sort: County A-Z</option>
+  </select>
+  <button class="btn btn-secondary" onclick="toggleMap()">🗺 Map</button>
+  <button class="btn btn-primary ml-auto" onclick="exportCSV()">⬇ GHL Export</button>
+</div>
+
+<!-- Map section (hidden by default) -->
+<div id="map-section">
+  <div id="map"></div>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th><th>Score</th><th>Sale Type</th><th>Owner</th>
+        <th>Property Address</th><th>County</th><th>Sale Date</th>
+        <th>Amount Owed</th><th>Flags</th><th>Details</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div id="no-data" class="no-data" style="display:none">No records match your filters.</div>
+</div>
+<div id="pagination"></div>
+
+<!-- Detail drawer -->
+<div id="drawer">
+  <span class="close" onclick="closeDrawer()">✕</span>
+  <h2 id="d-title">Property Details</h2>
+  <div id="d-body"></div>
+</div>
+
+<script>
+const PAGE_SIZE = 50;
+let allRecords = [], filtered = [], currentPage = 1;
+let leafletMap = null, markers = null;
+
+async function load() {
+  try {
+    const res  = await fetch('records.json?v=' + Date.now());
+    const data = await res.json();
+    allRecords = data.records || [];
+
+    // Meta
+    document.getElementById('meta').textContent =
+      `Fetched: ${data.fetched_at ? new Date(data.fetched_at).toLocaleString() : 'N/A'}`
+      + ` | Range: ${data.date_range?.from} – ${data.date_range?.to}`
+      + ` | Source: ${data.source || ''}`;
+
+    // Stats
+    document.getElementById('s-total') .textContent = data.total ?? allRecords.length;
+    document.getElementById('s-addr')  .textContent = data.with_address ?? 0;
+    document.getElementById('s-high')  .textContent = allRecords.filter(r => r.score >= 60).length;
+    document.getElementById('s-active').textContent = allRecords.filter(r => r.sale_type === 'SALE').length;
+    document.getElementById('s-struck').textContent = allRecords.filter(r => (r.sale_type||'').includes('STRUCK')).length;
+    document.getElementById('s-future').textContent = allRecords.filter(r => (r.sale_type||'').includes('FUTURE')).length;
+
+    // Populate county filter
+    const counties = [...new Set(allRecords.map(r => r.county).filter(Boolean))].sort();
+    const sel = document.getElementById('f-county');
+    counties.forEach(c => {
+      const o = document.createElement('option');
+      o.value = c; o.textContent = c;
+      sel.appendChild(o);
+    });
+
+    applyFilters();
+  } catch(e) {
+    document.getElementById('tbody').innerHTML =
+      '<tr><td colspan="10" class="no-data">Could not load records.json – run the scraper first.<br>'
+      + '<small>' + e.message + '</small></td></tr>';
+  }
+}
+
+function applyFilters() {
+  const q      = document.getElementById('search').value.toLowerCase();
+  const fType  = document.getElementById('f-type').value;
+  const fScore = parseInt(document.getElementById('f-score').value) || 0;
+  const fCo    = document.getElementById('f-county').value;
+  const sortBy = document.getElementById('sort').value;
+
+  filtered = allRecords.filter(r => {
+    if (fType  && !(r.sale_type || '').includes(fType)) return false;
+    if (fScore && (r.score || 0) < fScore) return false;
+    if (fCo    && r.county !== fCo) return false;
+    if (q) {
+      const hay = [r.owner, r.prop_address, r.county, r.doc_num, r.account_id]
+        .join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    if (sortBy === 'date')   return (b.sale_date || '').localeCompare(a.sale_date || '');
+    if (sortBy === 'amount') return (b.amount_owed || 0) - (a.amount_owed || 0);
+    if (sortBy === 'county') return (a.county || '').localeCompare(b.county || '');
+    return (b.score || 0) - (a.score || 0);
+  });
+
+  currentPage = 1;
+  render();
+  updateMap();
+}
+
+function badgeCls(t) {
+  if (!t) return 'badge-sale';
+  if (t.includes('STRUCK'))  return 'badge-struck';
+  if (t.includes('FUTURE'))  return 'badge-future';
+  return 'badge-sale';
+}
+function scoreCls(s) {
+  return s >= 70 ? 'pill-high' : s >= 50 ? 'pill-mid' : 'pill-low';
+}
+function fmt$(v) {
+  return v ? '$' + Number(v).toLocaleString() : '—';
+}
+
+function render() {
+  const tbody   = document.getElementById('tbody');
+  const noData  = document.getElementById('no-data');
+  const start   = (currentPage - 1) * PAGE_SIZE;
+  const page    = filtered.slice(start, start + PAGE_SIZE);
+
+  if (!filtered.length) {
+    tbody.innerHTML = '';
+    noData.style.display = 'block';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+  noData.style.display = 'none';
+
+  tbody.innerHTML = page.map((r, i) => {
+    const sc    = r.score || 0;
+    const flags = (r.flags || []).map(f => `<span class="flag">${f}</span>`).join('');
+    const addr  = r.prop_address
+      ? `${r.prop_address}<br><small style="color:var(--muted)">${r.prop_city||''} ${r.prop_zip||''}</small>`
+      : '<span style="color:var(--muted)">—</span>';
+
+    return `<tr>
+      <td style="color:var(--muted)">${start + i + 1}</td>
+      <td><span class="pill ${scoreCls(sc)}">${sc}</span></td>
+      <td><span class="badge ${badgeCls(r.sale_type)}">${r.sale_type || 'SALE'}</span></td>
+      <td>${r.owner || '—'}</td>
+      <td>${addr}</td>
+      <td style="color:var(--muted)">${r.county || '—'}</td>
+      <td>${r.sale_date || '—'}</td>
+      <td>${fmt$(r.amount_owed)}</td>
+      <td>${flags}</td>
+      <td><button class="btn btn-secondary" style="padding:3px 9px;font-size:12px"
+          onclick="openDrawer(${start + i})">View</button></td>
+    </tr>`;
+  }).join('');
+
+  renderPagination();
+}
+
+function renderPagination() {
+  const pages = Math.ceil(filtered.length / PAGE_SIZE);
+  const el    = document.getElementById('pagination');
+  if (pages <= 1) { el.innerHTML = ''; return; }
+  let html = '';
+  const shown = Array.from({length: pages}, (_, i) => i + 1)
+    .filter(p => p === 1 || p === pages || Math.abs(p - currentPage) <= 2);
+  shown.forEach((p, idx) => {
+    if (idx > 0 && shown[idx - 1] < p - 1) html += '<span style="padding:0 4px;color:var(--muted)">…</span>';
+    html += `<button class="${p === currentPage ? 'active' : ''}" onclick="goPage(${p})">${p}</button>`;
+  });
+  el.innerHTML = html;
+}
+
+function goPage(p) { currentPage = p; render(); window.scrollTo(0, 0); }
+
+// ── Event listeners ──
+['search', 'f-type', 'f-score', 'f-county', 'sort'].forEach(id => {
+  document.getElementById(id).addEventListener('input',  applyFilters);
+  document.getElementById(id).addEventListener('change', applyFilters);
+});
+
+// ── Map ──
+function toggleMap() {
+  const sec = document.getElementById('map-section');
+  const vis = sec.style.display !== 'block';
+  sec.style.display = vis ? 'block' : 'none';
+  if (vis) {
+    if (!leafletMap) initMap();
+    else updateMap();
+  }
+}
+
+function initMap() {
+  leafletMap = L.map('map').setView([31.0, -100.0], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(leafletMap);
+  markers = L.layerGroup().addTo(leafletMap);
+  updateMap();
+}
+
+function updateMap() {
+  if (!leafletMap || !markers) return;
+  markers.clearLayers();
+  const withCoords = filtered.filter(r => r.lat && r.lon);
+  withCoords.forEach(r => {
+    const color = r.score >= 70 ? '#22c55e' : r.score >= 50 ? '#eab308' : '#ef4444';
+    const icon  = L.divIcon({
+      html: `<div style="background:${color};width:10px;height:10px;border-radius:50%;border:2px solid #fff"></div>`,
+      className: '', iconSize: [14, 14],
+    });
+    L.marker([r.lat, r.lon], { icon })
+      .bindPopup(`<b>${r.owner || 'Unknown'}</b><br>${r.prop_address || ''}<br>Score: ${r.score} | ${r.sale_type}`)
+      .addTo(markers);
+  });
+  if (withCoords.length > 0) {
+    const bounds = withCoords.map(r => [r.lat, r.lon]);
+    leafletMap.fitBounds(bounds, { padding: [30, 30] });
+  }
+}
+
+// ── Detail drawer ──
+function openDrawer(idx) {
+  const r = filtered[idx];
+  if (!r) return;
+  document.getElementById('d-title').textContent = r.owner || 'Property Details';
+  const fields = [
+    ['Sale Type',       r.sale_type],
+    ['Sale Date',       r.sale_date],
+    ['Score',           r.score],
+    ['Flags',           (r.flags||[]).join(', ')],
+    ['Property Address',`${r.prop_address||'—'}, ${r.prop_city||''} ${r.prop_state||''} ${r.prop_zip||''}`],
+    ['Mailing Address', r.mail_address ? `${r.mail_address}, ${r.mail_city||''} ${r.mail_state||''} ${r.mail_zip||''}` : '—'],
+    ['County',          r.county],
+    ['Precinct',        r.precinct],
+    ['Account ID',      r.account_id],
+    ['Amount Owed',     r.amount_owed ? '$' + Number(r.amount_owed).toLocaleString() : '—'],
+    ['Legal Description', r.legal || '—'],
+    ['Source URL',      r.clerk_url ? `<a href="${r.clerk_url}" target="_blank">View on LGBS →</a>` : '—'],
+  ];
+  document.getElementById('d-body').innerHTML = fields.map(([label, val]) =>
+    `<div class="field"><label>${label}</label><span>${val ?? '—'}</span></div>`
+  ).join('');
+  document.getElementById('drawer').classList.add('open');
+}
+
+function closeDrawer() {
+  document.getElementById('drawer').classList.remove('open');
+}
+
+// ── GHL CSV Export ──
+function exportCSV() {
+  const cols = [
+    'First Name','Last Name','Mailing Address','Mailing City','Mailing State','Mailing Zip',
+    'Property Address','Property City','Property State','Property Zip',
+    'County','Precinct','Account ID','Sale Type','Sale Date','Amount Owed',
+    'Seller Score','Motivated Seller Flags','Legal Description','Source','Public Records URL'
+  ];
+  const rows = [cols.join(',')];
+  filtered.forEach(r => {
+    const parts = (r.owner||'').split(' ');
+    const last  = parts.pop() || '';
+    const first = parts.join(' ');
+    rows.push([
+      first, last,
+      r.mail_address||'', r.mail_city||'', r.mail_state||'', r.mail_zip||'',
+      r.prop_address||'', r.prop_city||'', r.prop_state||'', r.prop_zip||'',
+      r.county||'', r.precinct||'', r.account_id||'',
+      r.sale_type||'', r.sale_date||'', r.amount_owed||'',
+      r.score||0, (r.flags||[]).join('; '), r.legal||'',
+      'Linebarger Tax Sales (taxsales.lgbs.com)',
+      r.clerk_url||''
+    ].map(v => `"${String(v).replace(/"/g,'""')}"`).join(','));
+  });
+  const blob = new Blob([rows.join('\n')], {type:'text/csv'});
+  const a    = document.createElement('a');
+  a.href     = URL.createObjectURL(blob);
+  a.download = `tax_sale_leads_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+
+load();
+</script>
+</body>
+</html>
